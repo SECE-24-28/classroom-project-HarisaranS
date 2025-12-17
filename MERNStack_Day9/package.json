@@ -7,9 +7,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon entry.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "nodemon entry.js",
+  "start": "node entry.js"
+}
+,
   "dependencies": {
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
